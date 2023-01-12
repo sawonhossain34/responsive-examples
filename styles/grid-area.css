@@ -11,9 +11,20 @@ main{
 .aside{
     grid-area: aside;
 }
-.add{
-    grid-area: add;
+.ad{
+    grid-area: ad;
 }
 .footer{
     grid-area: footer;
+}
+/* grid layout related style */
+.grid-container{
+    display:grid;
+    gap:20px;
+    grid-template-areas:
+    "header header header header"
+    "nav    main   main   aside"
+    "nav    main   main   ad"
+    "footer footer footer footer"
+    ;
 }
