@@ -1,0 +1,19 @@
+/* define grid area */
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+.aside{
+    grid-area: aside;
+}
+.add{
+    grid-area: add;
+}
+.footer{
+    grid-area: footer;
+}
